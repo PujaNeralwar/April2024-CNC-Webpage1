@@ -1,1 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+/* header section  start */
+header{
+    padding: 20px;
+   
+    background-color: rgb(237, 62, 62);
+}
+header h1, header p{
+    color: white
+}
+/* header section  end */
+
+/* main Section start */
+aside{
+    float: left;
+    width: 20%;
+    background-color: rgb(104, 187, 104);
+    color: white;
+    /* padding: 20px, 0px, 0px, 20px; */
+    padding-left: 20px;
+}
+aside h3{
+    margin: 30px 0px;
+}
+aside ul li{
+    list-style: none;
+    margin-top: 13px;
+    border-bottom: 2px solid white;
+
+}
+main{
+    float: left;
+    width: 80%;
+    text-align: justify;
+    padding: 30px 20px;
+}
+/* main Section end */
+
+/* footer section start */
+footer{
+    background-color: rgb(237, 62, 62);
+}
+footer h1{
+    color:aliceblue;
+    padding: 20px;
+}
+/* footer section end */
